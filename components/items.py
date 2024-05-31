@@ -7,6 +7,7 @@ import scrapy
 
 
 class ComponentsItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    processors = scrapy.Field()
+    gpus = scrapy.Field()
+    motherboards = scrapy.Field()
+    rams = scrapy.Field()
